@@ -1,0 +1,50 @@
+*{
+   margin: 0;
+   padding: 0;
+   
+}
+
+.main{
+   width: 100%;
+   background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/images/1.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+}
+.navbar{
+   justify-content: space-between;
+   display: flex;
+   height: 75px;
+   margin: auto;
+}
+.logo{
+   float: left;
+   padding: 10px;
+   margin-left: 30px;
+}
+.logo img{
+   width: 230px;
+   height: 50px;
+   margin-left: 20px;
+}
+ul{
+   display: flex;
+   margin-right: 40px;
+}
+ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px;
+}
+ul li a{
+   text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+   font-family: Arial;
+   font-weight: bold;
+   transition: 0.4 ease-in-out;
+}
+ul li a:hover{
+   color: coral;
+}
